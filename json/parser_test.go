@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	jsonParser "github.com/mmcdole/gofeed/json"
 	"github.com/stretchr/testify/assert"
+	jsonParser "github.com/tmm6907/gofeed/json"
 )
 
 // Tests

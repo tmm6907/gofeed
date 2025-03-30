@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mmcdole/gofeed"
+	"github.com/tmm6907/gofeed"
 )
 
 func TestFeedSort(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mmcdole/gofeed"
-	"github.com/mmcdole/gofeed/atom"
-	"github.com/mmcdole/gofeed/json"
-	"github.com/mmcdole/gofeed/rss"
 	"github.com/stretchr/testify/assert"
+	"github.com/tmm6907/gofeed"
+	"github.com/tmm6907/gofeed/atom"
+	"github.com/tmm6907/gofeed/json"
+	"github.com/tmm6907/gofeed/rss"
 )
 
 func TestDefaultRSSTranslator_Translate(t *testing.T) {

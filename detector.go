@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/mmcdole/gofeed/internal/shared"
 	xpp "github.com/mmcdole/goxpp"
+	"github.com/tmm6907/gofeed/internal/shared"
 )
 
 // FeedType represents one of the possible feed

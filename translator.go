@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/mmcdole/gofeed/atom"
-	ext "github.com/mmcdole/gofeed/extensions"
-	"github.com/mmcdole/gofeed/internal/shared"
-	"github.com/mmcdole/gofeed/json"
-	"github.com/mmcdole/gofeed/rss"
+	"github.com/tmm6907/gofeed/atom"
+	ext "github.com/tmm6907/gofeed/extensions"
+	"github.com/tmm6907/gofeed/internal/shared"
+	"github.com/tmm6907/gofeed/json"
+	"github.com/tmm6907/gofeed/rss"
 	"golang.org/x/net/html"
 )
 
