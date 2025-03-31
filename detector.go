@@ -55,7 +55,7 @@ loop:
 	if firstChar == '<' {
 		// Check if it's an XML based feed
 		p := xpp.NewXMLPullParser(bytes.NewReader(buffer.Bytes()), false, shared.NewReaderLabel)
-
+		log.Println("p: ", p)
 		_, err := shared.FindRoot(p)
 		if err != nil {
 			return FeedTypeUnknown
